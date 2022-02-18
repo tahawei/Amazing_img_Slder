@@ -12,7 +12,7 @@ const nextBtn = document.querySelector(".next");
 const prevBtn = document.querySelector(".previous");
 
 // Set up the slider
-//
+
 function init() {
   slideImage.forEach((img, i) => {
     img.style.left = i * 100 + "%";
