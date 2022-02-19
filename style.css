@@ -17,7 +17,7 @@
 .slides-container {
   display: flex;
   transform: translateX(0);
-  transition: transform 0.5s;
+  transition: transform 0.6s;
 }
 .slides-container img {
   border-radius: 5px;
@@ -76,12 +76,10 @@
   align-items: flex-end;
   justify-content: center;
   height: 100%;
-  margin-bottom: 15px;
-}
-.navigation-dots ul {
+  margin-bottom: 30px;
   gap: 10px;
-  display: flex;
 }
+
 .navigation-dots li {
   width: 15px;
   height: 15px;
